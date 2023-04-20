@@ -9,7 +9,7 @@ on:
         type: string
     outputs:
       current-time:
-        description: 'The time when greeting.'
+        description: 'The time when greeting'
         value: ${{ jobs.reusable-job.outputs.current-time }}
         
 jobs:
